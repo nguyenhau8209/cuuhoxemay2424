@@ -248,6 +248,26 @@
     body {
       font-size: 100%;
     }
+    .response-column{
+      display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow: hidden; /* Sắp xếp các phần tử theo cột */
+    }
+    .content_response{
+      max-width: 100%;
+      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+       /* Khoảng cách giữa các phần tử */
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc; /* Đường viền để dễ thấy */
+    }
+    .content_hidden_mobile{
+      display: none;
+    }
+    .slideshow-container {
+      height: 550px;
+    }
   }
   body {
     font-family: Roboto, sans-serif;
